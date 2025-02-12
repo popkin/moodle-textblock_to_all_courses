@@ -46,4 +46,21 @@ class block_textblock_to_all_courses extends block_base {
 
         return true;
     }
+
+    public function has_config() {
+        return false; // Cambiado a false porque no usamos config_instance
+    }
+
+    public function instance_allow_config() {
+        return false; // Los bloques individuales no son configurables
+    }
+
+    public function applicable_formats() {
+        return array(
+            'all' => true,
+            'site' => true,
+            'course' => true,
+            'my' => true
+        );
+    }
 }

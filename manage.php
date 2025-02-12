@@ -2,13 +2,17 @@
 require_once('../../config.php');
 require_once($CFG->libdir.'/adminlib.php');
 
-admin_externalpage_setup('blocktextblocktoallcoursesmanage');
+// Configuración de la página de administración
+admin_externalpage_setup('block_textblock_to_all_courses_manage');
 
+require_login();
+require_capability('block/textblock_to_all_courses:manage', context_system::instance());
+
+// Configuración básica de la página sin usar admin_externalpage_setup
 $PAGE->set_url('/blocks/textblock_to_all_courses/manage.php');
+$PAGE->set_pagelayout('admin');
 $PAGE->set_title(get_string('manage_blocks', 'block_textblock_to_all_courses'));
 $PAGE->set_heading(get_string('manage_blocks', 'block_textblock_to_all_courses'));
-
-require_capability('block/textblock_to_all_courses:manage', context_system::instance());
 
 $action = optional_param('action', '', PARAM_ALPHA);
 $id = optional_param('id', 0, PARAM_INT);

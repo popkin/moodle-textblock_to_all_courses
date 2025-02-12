@@ -48,7 +48,8 @@ class block_textblock_edit_form extends moodleform {
     }
 }
 
-admin_externalpage_setup('blocktextblocktoallcoursesmanage');
+// Actualizado para usar el mismo identificador de página de administración
+admin_externalpage_setup('block_textblock_to_all_courses_manage');
 require_capability('block/textblock_to_all_courses:manage', context_system::instance());
 
 $id = optional_param('id', 0, PARAM_INT);
