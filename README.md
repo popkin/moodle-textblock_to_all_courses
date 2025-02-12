@@ -12,8 +12,9 @@ Un plugin de Moodle que permite desplegar bloques de texto en múltiples cursos 
 
 ## 📋 Requisitos
 
-- Moodle 4.3.2 o superior
-- PHP 7.4 o superior
+- Moodle 4.3.2+ (Build: 20240125)
+- PHP 8.0 o superior
+- Base de datos: MySQL 5.7+ / MariaDB 10.4+ / PostgreSQL 13+
 
 ## 🔧 Instalación
 
@@ -49,9 +50,10 @@ El plugin utiliza las siguientes capacidades:
 
 ## 📝 Versión
 
-- Versión: 1.0.1
-- Liberación: 2024
+- Versión: 1.0.2
+- Build: 20240125
 - Madurez: MATURITY_STABLE
+- Compatibilidad: Moodle 4.3.2+
 
 ## 👨‍💻 Autor
 
