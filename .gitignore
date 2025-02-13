@@ -398,3 +398,36 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*~
+*.swp
+*.swo
+
+# Archivos de configuración local
+config.php
+config_local.php
+
+# Archivos de caché
+*.cache
+.phpunit.result.cache
+
+# Dependencias
+vendor/
+node_modules/
+
+# Archivos de log
+*.log

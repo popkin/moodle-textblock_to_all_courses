@@ -1,0 +1,51 @@
+<?php
+defined('MOODLE_INTERNAL') || die();
+
+$string['pluginname'] = 'Text Block to All Courses';
+$string['plugindesc'] = 'Create text blocks and display them across multiple courses simultaneously';
+$string['textblock_to_all_courses:addinstance'] = 'Add a new text block to all courses';
+$string['textblock_to_all_courses:myaddinstance'] = 'Add a new text block to Dashboard';
+$string['textblock_to_all_courses:manage'] = 'Manage text blocks across courses';
+$string['manage_blocks'] = 'Manage Text Blocks';
+$string['blocktitle'] = 'Block Title';
+$string['blockcontent'] = 'Block Content';
+$string['selectcourses'] = 'Select Courses';
+$string['selectposition'] = 'Block Position';
+$string['selectroles'] = 'Visible to Roles';
+$string['select_icon'] = 'Select Block Icon';
+$string['selectroles_help'] = 'Select who can see this block:
+* Everyone - The block will be visible to any user in the selected courses
+* Teacher(s) - The block will only be visible to teachers in the selected courses';
+$string['weight'] = 'Weight (Order)';
+$string['left'] = 'Left';
+$string['right'] = 'Right';
+$string['allcourses'] = 'All Courses';
+$string['everyone'] = 'Everyone';
+$string['addnewblock'] = 'Add New Text Block';
+$string['editblock'] = 'Edit Text Block';
+$string['deleteblock'] = 'Delete Text Block';
+$string['confirmdelete'] = 'Are you sure you want to delete this text block?';
+$string['error_title_required'] = 'Title is required';
+$string['error_content_required'] = 'Content is required';
+$string['error_courses_required'] = 'Select at least one course or all courses';
+$string['success_add'] = 'Text block successfully created';
+$string['success_edit'] = 'Text block successfully updated';
+$string['success_delete'] = 'Text block successfully deleted';
+$string['eventblockcreated'] = 'Text block created';
+$string['eventblockupdated'] = 'Text block updated';
+$string['eventblockdeleted'] = 'Text block deleted';
+$string['icon_asterisk'] = 'Asterisk';
+$string['icon_info'] = 'Information';
+$string['icon_warning'] = 'Warning';
+$string['icon_bullhorn'] = 'Bullhorn';
+$string['icon_message'] = 'Message';
+$string['icon_calendar'] = 'Calendar';
+$string['icon_star'] = 'Star';
+$string['no_icon'] = 'No icon';
+$string['timemodified'] = 'Last modified';
+$string['timecreated'] = 'Created on';
+$string['actions'] = 'Actions';
+$string['edit'] = 'Edit';
+$string['delete'] = 'Delete';
+$string['table_title'] = 'Text blocks';
+$string['return_to_course'] = 'Return to course';
